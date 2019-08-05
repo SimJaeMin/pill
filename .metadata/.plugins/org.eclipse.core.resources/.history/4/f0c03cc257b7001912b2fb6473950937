@@ -1,0 +1,10 @@
+package kr.co.mlec.logincontroller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class LoginController {
+	
+	@RequestMapping(value="/login/singup" method=requestMethod.GET)
+}
